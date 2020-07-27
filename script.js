@@ -43,5 +43,4 @@ const handleClickPanel = action =>{
     if(action === "prev")currentIndex = currentIndex === 0 ? DATA.length - 1 : currentIndex - 1
     else currentIndex = currentIndex === DATA.length - 1 ? 0 : currentIndex + 1
     changeUserTestimonial(currentIndex)
-    console.log('here')
 }
